@@ -120,4 +120,16 @@
 - [ChatGPT](https://chat.openai.com) - 本项目采用“面向 ChatGPT 编程”的理念，完成了包括本文档在内的 90% 的代码。
 ---
 
+## 
+
+```shell
+# 登录 Docker Hub
+docker login
+
+# 构建镜像（替换 yourusername 为你的 Docker Hub 用户名）
+docker build -t yourusername/nezha-telegram-bot:latest .
+
+# 推送到 Docker Hub
+docker push yourusername/nezha-telegram-bot:latest
+```
 **免责声明**：使用本机器人时，请确保遵守相关法律法规。开发者不对因使用本机器人导致的任何损失承担责任。
